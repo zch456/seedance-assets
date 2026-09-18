@@ -1,0 +1,6 @@
+.env
+state.json
+out/
+*.part
+__pycache__/
+.DS_Store

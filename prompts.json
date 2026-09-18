@@ -1,0 +1,34 @@
+{
+  "aspect_ratio": "9:16",
+  "duration": 20,
+  "resolution": "720p",
+  "generate_audio": true,
+  "stills": [
+    {
+      "name": "frame-01",
+      "label": "A / main character",
+      "prompt_file": "prompts/prompt-a.txt",
+      "refs": []
+    },
+    {
+      "name": "frame-02",
+      "label": "B / holding product",
+      "prompt_file": "prompts/prompt-b.txt",
+      "refs": [
+        "assets/product.png",
+        "assets/frame-01.jpg"
+      ]
+    },
+    {
+      "name": "frame-03",
+      "label": "C / using product",
+      "prompt_file": "prompts/prompt-c.txt",
+      "refs": [
+        "assets/product.png",
+        "assets/frame-02.jpg"
+      ]
+    }
+  ],
+  "size": "1080x1920",
+  "video_prompt_file": "prompts/prompt-video.txt"
+}
